@@ -28,7 +28,7 @@ library:
   - array
 
 executables:
-  stack-tutorial-exe:
+  minfree:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
