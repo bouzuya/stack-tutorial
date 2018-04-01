@@ -1,4 +1,9 @@
-module Main where
+module Main (main) where
 
-main :: IO ()
-main = undefined
+  import System.Environment (getArgs)
+  import Minfree (minfree)
+
+  main :: IO ()
+  main = do
+    [xs] <- getArgs
+    print $ minfree $ read xs
