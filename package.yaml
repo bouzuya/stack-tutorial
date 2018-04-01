@@ -58,3 +58,4 @@ tests:
     dependencies:
     - stack-tutorial
     - hspec
+    - QuickCheck
