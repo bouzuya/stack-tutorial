@@ -41,6 +41,15 @@ packages:
 # (e.g., acme-missiles-0.3)
 # extra-deps: []
 
+build:
+  haddock: false # true: stack build --haddock
+  haddock-arguments:
+    haddock-args:
+    - --odir=haddock
+  open-haddocks: false
+  haddock-internal: false
+  haddock-hyperlink-source: true
+
 # Override default flag values for local packages and extra-deps
 # flags: {}
 
